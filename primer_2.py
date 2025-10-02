@@ -1,5 +1,6 @@
 import sys
 
+
 if __name__ == '__main__':
     n = int(input("Введите номер месяца: "))
 
@@ -15,4 +16,3 @@ if __name__ == '__main__':
         print("Ошибка!", file=sys.stderr)
         exit(1)
 
-        
